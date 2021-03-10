@@ -6,3 +6,19 @@
 
 ## Zadanie
 https://www.kaggle.com/c/titanic/data
+
+### pokyny
+* najdite numericke a nominalne atributy
+* najdite atributy s chybajucimi hodnotami
+* zistite distribuciu jednotlivych atributov
+* atd.
+
+* ak je potrebne z existujucich atributov vytvorte nove priznaky (napr. atribut Cabin -> staci len pismeno (ktora cast lode) a netreba presne cislo kabiny)
+* nahradte chybajuce hodnoty
+* ak je potrebne upravte distribuciu atributov
+* normalizujte hodnoty atributov
+* atd.
+
+* vyberte len najdolezitejsie atributy
+
+* vytvorte model na klasifikaciu ci clovek prezil alebo nie
