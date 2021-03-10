@@ -110,4 +110,4 @@ venv.bak/
 *.pkl
 
 # datafiles
-packages/houseprices_model/houseprices_model/datasets/*
+packages/houseprices_model/houseprices_model/datasets/*.csv
