@@ -1,5 +1,11 @@
 # Integrácia a nasadenie softvérových aplikácií
 
+## Zdroj
+
+* https://github.com/trainindata/dmlm-research-and-production
+* https://www.udemy.com/course/deployment-of-machine-learning-models
+* https://www.udemy.com/course/testing-and-monitoring-machine-learning-model-deployments
+
 ## Instalacia
 
 * Nainstalujte si [Python 3.7](https://www.python.org/downloads/)
