@@ -1,0 +1,5 @@
+# api
+flask==1.0.2
+
+# lokalny balik s ml modelom
+-e "D:\skola\INSA\code\INSA\cvicenie5\testovanie\packages\houseprices_model"
