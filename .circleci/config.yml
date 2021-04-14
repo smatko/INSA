@@ -16,8 +16,26 @@ jobs:
             pip install -e ./packages/houseprices_model
             python packages/houseprices_model/houseprices_model/train_pipeline.py
             py.test -vv packages/houseprices_model/tests
+  test_ml_api:
+    working_directory: ~/project
+    docker:
+      - image: circleci/python:3.7.2
+    steps:
+      - checkout
+      - run:
+          name: Runnning tests
+          command: |
+            virtualenv venv
+            . venv/bin/activate
+            pip install --upgrade pip
+            pip install -r packages/ml_api/requirements.txt
+            python packages/houseprices_model/houseprices_model/train_pipeline.py
+            py.test -vv packages/ml_api/tests
 workflows:
   version: 2
   test-all:
     jobs:
       - test_house_prices_model
+      - test_ml_api:
+          requires:
+            - test_house_prices_model
