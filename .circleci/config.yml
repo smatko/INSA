@@ -13,6 +13,7 @@ jobs:
             . venv/bin/activate
             pip install --upgrade pip
             pip install -r packages/houseprices_model/requirements.txt
+            python packages/houseprices_model/houseprices_model/train_pipeline.py
             py.test -vv packages/houseprices_model/tests
 workflows:
   version: 2
