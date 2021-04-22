@@ -17,4 +17,4 @@ USER ml-api-user
 
 EXPOSE 5000
 
-CMD ["python", "./run.py"] 
+CMD ["flask", "run", "--host=0.0.0.0"] 
