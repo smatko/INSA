@@ -1,5 +1,5 @@
 # Integrácia a nasadenie softvérových aplikácií
-test
+
 ## Zdroj
 
 * https://github.com/trainindata/dmlm-research-and-production
