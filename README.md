@@ -1,5 +1,5 @@
 # Integrácia a nasadenie softvérových aplikácií
-
+asddsf
 ## Zdroj
 
 * https://github.com/trainindata/dmlm-research-and-production
